@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Quote} from './quoteclass';
+// import {Quote} from './quoteclass';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,8 @@ import {Quote} from './quoteclass';
 })
 export class AppComponent {
 public  title = 'quotes';
-  quotes=[
-    new Quoteclass(1, 'JamesGichuru ','desvtoof')
-  ]
+//   quotes=[
+//     new Quoteclass(1, 'JamesGichuru ','desvtoof')
+//   ]
+// }
 }
