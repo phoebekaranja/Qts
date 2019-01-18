@@ -5,7 +5,7 @@ import { Quote } from '../quote';
   selector: 'app-quotes',
   templateUrl: './quotes.component.html',
   styleUrls: ['./quotes.component.css']
-});
+})
 export class QuotesComponent implements OnInit {
 
   quoted = [
@@ -16,3 +16,8 @@ export class QuotesComponent implements OnInit {
     new Quote(5,  'Taylor Swift', 'This is a new year. A new beginning. And things will change.',  'Wanyeki', 0, 0, 0),
     new Quote(6,  'Neil Gaiman', 'Google can bring you back 100,000 answers. A librarian can bring you back the right one.',  'Abdifatah', 0, 0, 0),
   ]
+  constructor() { }
+
+    ngOnInit() {
+    }
+  }
