@@ -16,8 +16,35 @@ export class QuotesComponent implements OnInit {
     new Quote(5,  'Taylor Swift', 'This is a new year. A new beginning. And things will change.',  'Wanyeki', 0, 0, 0),
     new Quote(6,  'Neil Gaiman', 'Google can bring you back 100,000 answers. A librarian can bring you back the right one.',  'Abdifatah', 0, 0, 0),
   ]
+
+  toggleDetails(index) {
+    this.quoted[index].showDescription = !this.quoted[index].showDescription;
+  };
+  addNewQuotes(quote) {
+    const quoteLength =
+    this.quoted.length;
+    quote.id = quoteLength + 1;
+    this.quoted.push(quote);
+  };
+  quoteComplete(isComplete, index) {
+    if (isComplete) {
+      this.quoted.splice(index, 1);
+    };
+  };
+
+  upVote(index) {
+    this.quoted[index].upvotes += 1;
+  };
+
+  downVote(index) {
+      this.quoted[index].downvotes += 1
+    };
+
   constructor() { }
 
-    ngOnInit() {
-    }
+  ngOnInit() {
   }
+
+
+
+}
