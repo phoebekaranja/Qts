@@ -21,10 +21,10 @@ there are no know Bugs in this web page.
 * Angular.
 
 ## Support and contact details.
-For more information contact +25450995069 or Email me phoebemurish@gmail.com.
+For more information contact +25498164370 or Email me phoebemurish@gmail.com.
 
 ## Link to live website.
-[Quotes] (https://shureim.github.io/quote/)
+[Quotes] (https://phoebekaranja.github.io/Qts/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
