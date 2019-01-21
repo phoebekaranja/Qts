@@ -4,7 +4,7 @@
 
 #### By **Phoebe Karanja.**
 
-## Description.
+##BDD
 This is an application where users can add a quote they know or which they created . Hence providing the the neccessary information for it such as Author, Quote and Submitted by who.
 
 ## Setup/Installation Requirements.
